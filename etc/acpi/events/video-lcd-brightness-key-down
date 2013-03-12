@@ -1,0 +1,9 @@
+# /etc/acpi/events/video-lcd-brightness-down
+# This is called when the user presses the key brightness 
+# down button and calls /etc/acpi/video-brightness-key.sh for
+# further processing.
+# Lenovo Exxx
+
+event=video LCD 00000087
+action=/etc/acpi/video-brightness-key.sh down
+

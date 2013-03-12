@@ -1,0 +1,9 @@
+# /etc/acpi/events/video-lcd0-brightness-key-up
+# This is called when the user presses the key brightness 
+# up button and calls /etc/acpi/video-brightness-key.sh for
+# further processing.
+# Lenovo Sxxx
+
+event=video LCD0 00000086
+action=/etc/acpi/video-brightness-key.sh up
+
